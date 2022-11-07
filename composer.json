@@ -1,0 +1,18 @@
+{
+    "name": "pradiplimbu/helloworld",
+    "description": "A simple hello world package",
+    "authors": [
+        {
+            "name": "Pradip",
+            "email": "pradiplimbu23@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pradip\\App\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
